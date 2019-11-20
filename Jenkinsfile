@@ -12,7 +12,7 @@ node {
     }
 
     stage('Deploy image') {
-        app.run("-p 8089:80 --env welcome_message='${welcome_message}'")
+        app.run("-p 8089:80 --name='WebApp01' --env welcome_message='${welcome_message}'")
     }
 
     stage('Push image') {
