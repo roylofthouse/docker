@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "license": "UNLICENSED",
     "description": "Node.js on Docker",
-    "author": "First Last <first.last@example.com>",
+    "author": "Roy Lofthouse <first.last@example.com>",
     "private": true,
     "main": "server.js",
     "scripts": {
